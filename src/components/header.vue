@@ -1,6 +1,15 @@
 <template>
-  <h1>header</h1>
+<div>
+  <img src="../assets/imgCom/dc-logo.png" alt="logo DC">
+  <ul>
+    <li v-for= "(link,index) in linkHeader" :key="index">
+      <a class="">{{link.text}}</a>
+    </li>
+  </ul>
+
+</div>
 </template>
+  
 
 
 <script>
@@ -57,5 +66,9 @@ export default {
 </script>
 
 <style>
+
+ul{
+  list-style: none;
+}
 
 </style>

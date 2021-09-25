@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="disposizione">
   <img src="../assets/imgCom/dc-logo.png" alt="logo DC">
   <ul>
     <li v-for= "(link,index) in linkHeader" :key="index">
@@ -65,10 +65,28 @@ export default {
 }
 </script>
 
-<style>
+<style Lang="scss">
+@import "./style/variabili.scss";
 
+.disposizione{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
 ul{
   list-style: none;
 }
+
+li{
+  float: left;
+  margin: 15px 15px;
+}
+
+
+
+  
+
 
 </style>

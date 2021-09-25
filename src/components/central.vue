@@ -5,13 +5,67 @@
         </div>
         <div class="secondaBanda">
         </div>
-        <div class="terzaBanda"></div>
+        <div class="terzaBanda">
+            <ul>
+                <li v-for= "(link,index) in linkHeader" :key="index">
+                <a href="#" class="active">{{link.text}}</a>
+                </li>
+            </ul>
+            <img class="logo-bg" src="../assets/imgCom//dc-logo-bg.png" alt="logo-bg">
+        </div>
 
     </div>
 </template>
 
 <script>
 export default {
+     name:'Central',
+  data: function (){
+    return {
+      linkHeader: [
+        {
+          text:'charater',
+          link: '#charater',
+        },
+        {
+          text:'comics',
+          link: '#comics',
+        },
+                {
+          text:'movies',
+          link: '#movies',
+        },
+        {
+          text:'tv',
+          link: '#tv',
+        },
+                {
+          text:'games',
+          link: '#games',
+        },
+        {
+          text:'collections',
+          link: '#collections',
+        },
+                {
+          text:'video',
+          link: '#video',
+        },
+        {
+          text:'fans',
+          link: '#fans',
+        },
+                {
+          text:'news',
+          link: '#news',
+        },
+        {
+          text:'shop',
+          link: '#shop',
+        },
+      ]
+    }
+  }
     
 }
 </script>
@@ -40,6 +94,9 @@ h4{
    
     background-repeat: no-repeat;
     background-size: cover;
+}
+.logo-bg{
+    height: 400px;
 }
 
 

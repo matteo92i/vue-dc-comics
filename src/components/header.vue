@@ -1,9 +1,9 @@
 <template>
 <div class="disposizione">
-  <img src="../assets/imgCom/dc-logo.png" alt="logo DC">
+  <img class="center" src="../assets/imgCom/dc-logo.png" alt="logo DC">
   <ul>
     <li v-for= "(link,index) in linkHeader" :key="index">
-      <a href="#" :class="active">{{link.text}}</a>
+      <a href="#" class="active">{{link.text}}</a>
     </li>
   </ul>
 
@@ -69,20 +69,26 @@ export default {
 @import "./style/variabili.scss";
 
 .disposizione{
-  height: 100px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.center{
+  margin-left: 150px;
+}
   
 ul{
   list-style: none;
+  margin-right: 150px;
 }
 
 li{
   float: left;
-  margin: 15px 15px;
+  font-size: 25px;
+  margin-left: 15px;
 }
+  
 a{
   text-decoration: none;
   

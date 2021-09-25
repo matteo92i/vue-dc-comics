@@ -3,7 +3,7 @@
   <img src="../assets/imgCom/dc-logo.png" alt="logo DC">
   <ul>
     <li v-for= "(link,index) in linkHeader" :key="index">
-      <a class="">{{link.text}}</a>
+      <a href="#" :class="active">{{link.text}}</a>
     </li>
   </ul>
 
@@ -83,6 +83,17 @@ li{
   float: left;
   margin: 15px 15px;
 }
+a{
+  text-decoration: none;
+  
+}
+li a:hover {
+  color: blue;
+}
+
+
+  
+
 
 
 

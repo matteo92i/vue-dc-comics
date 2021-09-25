@@ -35,8 +35,8 @@ h4{
 }
 .terzaBanda{
     width: 100%;
-    height: 300px;
-    background-image: url("../assets/imgCom/jumbotron.jpg");
+    height: 400px;
+    background-image: url("../assets/imgCom/footer-bg.jpg");
    
     background-repeat: no-repeat;
     background-size: cover;

@@ -7,7 +7,7 @@
         </div>
         <div class="terzaBanda">
             <ul>
-                <li v-for= "(link,index) in linkHeader" :key="index">
+                <li v-for= "(link,index) in dcComics" :key="index">
                 <a href="#" class="active">{{link.text}}</a>
                 </li>
             </ul>
@@ -19,10 +19,10 @@
 
 <script>
 export default {
-     name:'Central',
+     name:'central',
   data: function (){
     return {
-      linkHeader: [
+      dcComics: [
         {
           text:'charater',
           link: '#charater',
@@ -63,6 +63,16 @@ export default {
           text:'shop',
           link: '#shop',
         },
+      ],
+      shop:[
+          {
+              text:'shop',
+              link: '#shop',
+          },
+          {
+              text:'shop',
+              link: '#shop',
+          }
       ]
     }
   }

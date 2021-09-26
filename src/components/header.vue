@@ -1,8 +1,8 @@
 <template>
 <div class="disposizione">
   <img class="center" src="../assets/imgCom/dc-logo.png" alt="logo DC">
-  <ul>
-    <li v-for= "(link,index) in linkHeader" :key="index">
+  <ul class="disposizione-ul">
+    <li class="disposizione-lista" v-for= "(link,index) in linkHeader" :key="index">
       <a href="#" class="active">{{link.text}}</a>
     </li>
   </ul>
@@ -75,15 +75,16 @@ export default {
   align-items: center;
 }
 .center{
+  height: 80px;
   margin-left: 150px;
 }
   
-ul{
+.disposizione-ul{
   list-style: none;
   margin-right: 150px;
 }
 
-li{
+.disposizione-lista{
   float: left;
   font-size: 25px;
   margin-left: 15px;

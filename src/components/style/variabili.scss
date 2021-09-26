@@ -5,3 +5,9 @@ $headerfont: 'Open Sans Condensed';
 $bandacolor: black;
 $bandacolortext: white;
 $secondaBandaColor: blue;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

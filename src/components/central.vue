@@ -73,7 +73,92 @@ export default {
               text:'shop',
               link: '#shop',
           }
-      ]
+      ],
+    DC: [
+        {
+          text:'charater',
+          link: '#charater',
+        },
+        {
+          text:'comics',
+          link: '#comics',
+        },
+                {
+          text:'movies',
+          link: '#movies',
+        },
+        {
+          text:'tv',
+          link: '#tv',
+        },
+                {
+          text:'games',
+          link: '#games',
+        },
+        {
+          text:'collections',
+          link: '#collections',
+        },
+                {
+          text:'video',
+          link: '#video',
+        },
+        {
+          text:'fans',
+          link: '#fans',
+        },
+                {
+          text:'news',
+          link: '#news',
+        },
+        {
+          text:'shop',
+          link: '#shop',
+        },
+      ],
+    sites: [
+        {
+          text:'charater',
+          link: '#charater',
+        },
+        {
+          text:'comics',
+          link: '#comics',
+        },
+                {
+          text:'movies',
+          link: '#movies',
+        },
+        {
+          text:'tv',
+          link: '#tv',
+        },
+                {
+          text:'games',
+          link: '#games',
+        },
+        {
+          text:'collections',
+          link: '#collections',
+        },
+                {
+          text:'video',
+          link: '#video',
+        },
+        {
+          text:'fans',
+          link: '#fans',
+        },
+                {
+          text:'news',
+          link: '#news',
+        },
+        {
+          text:'shop',
+          link: '#shop',
+        },
+      ],
+
     }
   }
     

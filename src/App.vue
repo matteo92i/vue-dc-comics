@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <Main />
-    <Footer />
+    <Finale />
 
   </div>
 </template>
@@ -10,7 +10,7 @@
 <script>
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+import Finale from './components/Finale.vue'
 
 
 export default {
@@ -18,7 +18,7 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Finale,
   }
 }
 </script>

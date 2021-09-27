@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name:'Header',
+  name:'Iniziale',
   data: function (){
     return {
       linkHeader: [

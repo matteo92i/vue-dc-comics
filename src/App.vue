@@ -18,7 +18,7 @@ export default {
   components: {
     Iniziale,
     Main,
-    Finale,
+    Finale
   }
 }
 </script>

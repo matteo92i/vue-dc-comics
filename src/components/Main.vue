@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="primaBanda">
-            <h4>--Content goes here-- </h4>
+            <Fumetti/>
         </div>
         <div class="secondaBanda">
         </div>
@@ -55,151 +55,29 @@
 </template>
 
 <script>
-export default {
-     name:'Main',
-  data: function (){
-    return {
-      dcComics: [
-        {
-          text:'charater',
-          link: '#charater',
-        },
-        {
-          text:'comics',
-          link: '#comics',
-        },
-                {
-          text:'movies',
-          link: '#movies',
-        },
-        {
-          text:'tv',
-          link: '#tv',
-        },
-                {
-          text:'games',
-          link: '#games',
-        },
-        {
-          text:'collections',
-          link: '#collections',
-        },
-                {
-          text:'video',
-          link: '#video',
-        },
-        {
-          text:'fans',
-          link: '#fans',
-        },
-                {
-          text:'news',
-          link: '#news',
-        },
-        {
-          text:'shop',
-          link: '#shop',
-        },
-      ],
-      shop:[
-          {
-              text:'shop',
-              link: '#shop',
-          },
-          {
-              text:'shop',
-              link: '#shop',
-          }
-      ],
-    DC: [
-        {
-          text:'charater',
-          link: '#charater',
-        },
-        {
-          text:'comics',
-          link: '#comics',
-        },
-                {
-          text:'movies',
-          link: '#movies',
-        },
-        {
-          text:'tv',
-          link: '#tv',
-        },
-                {
-          text:'games',
-          link: '#games',
-        },
-        {
-          text:'collections',
-          link: '#collections',
-        },
-                {
-          text:'video',
-          link: '#video',
-        },
-        {
-          text:'fans',
-          link: '#fans',
-        },
-                {
-          text:'news',
-          link: '#news',
-        },
-        {
-          text:'shop',
-          link: '#shop',
-        },
-      ],
-    sites: [
-        {
-          text:'charater',
-          link: '#charater',
-        },
-        {
-          text:'comics',
-          link: '#comics',
-        },
-                {
-          text:'movies',
-          link: '#movies',
-        },
-        {
-          text:'tv',
-          link: '#tv',
-        },
-                {
-          text:'games',
-          link: '#games',
-        },
-        {
-          text:'collections',
-          link: '#collections',
-        },
-                {
-          text:'video',
-          link: '#video',
-        },
-        {
-          text:'fans',
-          link: '#fans',
-        },
-                {
-          text:'news',
-          link: '#news',
-        },
-        {
-          text:'shop',
-          link: '#shop',
-        },
-      ],
 
+import Fumetti from "./Fumetti.vue";
+
+export default {
+  name:'Fumetti',
+  components:{
+    Fumetti,
+  },
+  data:function(){
+    return{
+      comics:[
+        {
+        thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
+        price: "$19.99",
+        series: "Action Comics",
+        type: "comic book"
+        },
+
+      ]
     }
   }
-    
 }
+  
 </script>
 
 <style lang="scss">

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Iniziale />
     <Main />
     <Finale />
 
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Iniziale from './components/Iniziale.vue'
 import Main from './components/Main.vue'
 import Finale from './components/Finale.vue'
 
@@ -16,7 +16,7 @@ import Finale from './components/Finale.vue'
 export default {
   name: 'App',
   components: {
-    Header,
+    Iniziale,
     Main,
     Finale,
   }

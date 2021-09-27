@@ -6,11 +6,48 @@
         <div class="secondaBanda">
         </div>
         <div class="terzaBanda">
+            <div>
+                <h5>DC Comics</h5>
+
             <ul>
                 <li v-for= "(link,index) in dcComics" :key="index">
                 <a href="#" class="active">{{link.text}}</a>
                 </li>
             </ul>
+
+            </div>
+
+            <div>
+                <h5>Shop</h5>
+
+            <ul>
+                <li v-for= "(link,index) in dcComics" :key="index">
+                <a href="#" class="active">{{link.text}}</a>
+                </li>
+            </ul>
+
+            </div>
+
+            <div>
+                <h5>DC</h5>
+            <ul>
+                <li v-for= "(link,index) in DC" :key="index">
+                <a href="#" class="active">{{link.text}}</a>
+                </li>
+            </ul>
+
+            </div>
+
+            <div>
+                <h5>Sites</h5>
+            <ul>
+                <li v-for= "(link,index) in sites" :key="index">
+                <a href="#" class="active">{{link.text}}</a>
+                </li>
+            </ul>
+
+            </div>
+
             <img class="logo-bg" src="../assets/imgCom//dc-logo-bg.png" alt="logo-bg">
         </div>
 
@@ -189,9 +226,15 @@ h4{
    
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    
 }
 .logo-bg{
     height: 400px;
+}
+h5{
+    color: white;
 }
 
 
